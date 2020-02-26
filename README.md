@@ -3,7 +3,7 @@
 ## HowTo
 ```/bin/bash
 oc new-project blah
-oc new-build https://github.com/Jmainguy/docker-squid
+oc new-app https://github.com/Jmainguy/docker-squid
 oc expose svc/docker-squid
 ```
 
